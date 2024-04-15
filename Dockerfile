@@ -8,7 +8,7 @@ COPY . .
 
 EXPOSE 4000
 
-# VOLUME ["/app/message"]
+VOLUME ["/app/message"]
 
 CMD ["node", "server.js"]
 
